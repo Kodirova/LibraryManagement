@@ -1,0 +1,83 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block content %}
+
+
+
+ <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <!-- ============================================================== -->
+                    <!-- pageheader  -->
+                    <!-- ============================================================== -->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">List of Orders  </h2>
+                                <div class="page-breadcrumb">
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- end pageheader  -->
+                    <!-- ============================================================== -->
+
+
+
+                    <table>
+
+  <tbody>
+    <tr>
+
+      <th>Full Name of Student</th>
+      <th>Book</th>
+      <th>Purchased Date</th>
+      <th>Delivered</th>
+
+      <th>Update</th>
+
+
+
+    </tr>
+    {% for object in object_list %}
+
+    <tr>
+      <td width = "250px" height = "50px"><a href="{% url 'order-detail' object.pk %}">{{ object.student }}</a></td>
+      <td width = "250px" height = "50px">{{ object.book }}</td>
+      <td width = "250px" height = "50px">{{ object.purchased_date }}</td>
+      <td width = "250px" height = "50px">{{ object.delivered_date }}</td>
+
+      <td width = "80px" height = "50px"><a href="#"><img  src="{% static 'images/modifications/update-arrows .png' %}"></a></td>
+
+
+
+    </tr>
+  {% empty %}
+  <tr>No</tr>
+  {% endfor %}
+   </tbody>
+</table>
+
+
+
+
+        </div>
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- end wrapper  -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+
+
+
+{% endblock %}

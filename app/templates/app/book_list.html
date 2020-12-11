@@ -1,0 +1,80 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block content %}
+
+
+
+ <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <!-- ============================================================== -->
+                    <!-- pageheader  -->
+                    <!-- ============================================================== -->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">List of Books </h2>
+                                <div class="page-breadcrumb">
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- end pageheader  -->
+                    <!-- ============================================================== -->
+                   <h1>Books</h1>
+
+
+                    <table>
+
+  <tbody>
+    <tr>
+      <th>Book</th>
+      <th>Author</th>
+      <th>Available</th>
+      <th>Update</th>
+      <th>Delete</th>
+
+    </tr>
+    {% for object in object_list %}
+     <tr>
+         <td width = "250px" height = "50px"><a href="{% url 'book-detail' object.pk %}">{{ object.name }}</a></td>
+      <td width = "250px" height = "50px">{{ object.full_name_of_author }}</td>
+      {% if object.status %}
+         <td width = "250px" height = "50px">Available</td>
+      {% else %}
+         <td width = "250px" height = "50px">Not Available</td>
+      {% endif %}
+      <td width = "80px" height = "50px"><a href="{% url 'book-update' object.pk %}"><img  src="{% static 'images/modifications/update-arrows .png' %}"></a></td>
+         <td width = "80px" height = "50px"><a href="{% url 'book-delete' object.pk %}"><img  src="{% static 'images/modifications/delete.png' %}"></a></td>
+
+
+    </tr>
+  {% empty %}
+  <tr>No</tr>
+  {% endfor %}
+   </tbody>
+</table>
+
+
+
+
+        </div>
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- end wrapper  -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+
+
+
+{% endblock %}

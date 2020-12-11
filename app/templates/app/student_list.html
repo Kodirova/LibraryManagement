@@ -1,0 +1,77 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block content %}
+
+
+
+ <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <!-- ============================================================== -->
+                    <!-- pageheader  -->
+                    <!-- ============================================================== -->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">List of student </h2>
+                                <div class="page-breadcrumb">
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- end pageheader  -->
+                    <!-- ============================================================== -->
+                   <h1>student</h1>
+
+
+                    <table>
+
+  <tbody>
+    <tr>
+
+      <th>Full_Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Update</th>
+      <th>Delete</th>
+
+    </tr>
+    {% for object in object_list %}
+     <tr>
+      <td width = "250px" height = "50px"><a href="{% url 'student-detail' object.pk %}">{{ object.full_name }}</a></td>
+      <td width = "250px" height = "50px">{{ object.email }}</td>
+      <td width = "250px" height = "50px">{{ object.phone }}</td>
+      <td width = "80px" height = "50px"><a href="{% url 'student-update' object.pk %}"><img  src="{% static 'images/modifications/update-arrows .png' %}"></a></td>
+      <td width = "80px" height = "50px"><a href="{% url 'student-delete' object.pk %}"><img  src="{% static 'images/modifications/delete.png' %}"></a></td>
+
+
+    </tr>
+  {% empty %}
+  <tr>No</tr>
+  {% endfor %}
+   </tbody>
+</table>
+
+
+
+
+        </div>
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- end wrapper  -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+
+
+
+{% endblock %}

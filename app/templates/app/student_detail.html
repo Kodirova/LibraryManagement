@@ -1,0 +1,54 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block content %}
+
+
+
+ <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <!-- ============================================================== -->
+                    <!-- pageheader  -->
+                    <!-- ============================================================== -->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">Information about Student </h2>
+                                <div class="page-breadcrumb">
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- end pageheader  -->
+                    <!-- ============================================================== -->
+                    <h1>{{ object.full_name }}</h1>
+                    <p>email: {{ object.email }}</p>
+                    <p>Phone: {{ object.phone }}</p>
+                    <button><a href="{% url 'student-update' object.pk %}"><img src="{% static 'images/modifications/update-arrows .png' %}" alt="Update"
+                                             style="vertical-align: middle"> Update information</a></button>
+
+                     </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- end wrapper  -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+
+{% endblock %}
