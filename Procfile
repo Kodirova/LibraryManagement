@@ -1,1 +1,1 @@
-web:gunicorn LibraryManagement.wsgi --log-file -
+web: gunicorn gettingstarted.wsgi
