@@ -8,5 +8,5 @@ DATABASES = {
         'PORT': '',
     }
 }
-ALLOWED_HOSTS = ['https://kimmy-library.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 SECRET_KEY = 'nu2xx00wvzho4c43c667jwdgflo1nph#^^$1a6=oip&97852m4'
