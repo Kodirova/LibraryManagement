@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'nu2xx00wvzho4c43c667jwdgflo1nph#^^$1a6=oip&97852m4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://kimmy-library.herokuapp.com']
 
