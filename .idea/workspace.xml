@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0c89b1d-c944-46fc-bc48-91c360d78534" name="Default Changelist" comment="&quot;some changes&quot;">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="8d4a2bc3-7f8b-4027-bb21-ae2e013aa5d1" />
+  <component name="ProjectId" id="1krihKdnJ30dGWtFKn21Ex82k8N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="java.sql.Driver&#10;postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programming\Django\LibraryManagement\app\templates\app" />
+      <recent name="D:\programming\Django\LibraryManagement\app" />
+      <recent name="D:\programming\Django\LibraryManagement\templates\app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0c89b1d-c944-46fc-bc48-91c360d78534" name="Default Changelist" comment="" />
+      <created>1606465229770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606465229770</updated>
+      <workItem from="1606465231028" duration="7355000" />
+      <workItem from="1606554938628" duration="1987000" />
+      <workItem from="1606556970494" duration="26094000" />
+      <workItem from="1607011554632" duration="42538000" />
+      <workItem from="1607118292570" duration="17970000" />
+      <workItem from="1607319131394" duration="13792000" />
+      <workItem from="1607373848752" duration="601000" />
+      <workItem from="1607375051698" duration="147000" />
+      <workItem from="1607505156483" duration="5000" />
+      <workItem from="1607508805897" duration="448000" />
+      <workItem from="1607665071194" duration="6920000" />
+      <workItem from="1607748673334" duration="71000" />
+      <workItem from="1611567752942" duration="233000" />
+      <workItem from="1612005989352" duration="7000" />
+      <workItem from="1612006007683" duration="34000" />
+      <workItem from="1626089235353" duration="6184000" />
+    </task>
+    <task id="LOCAL-00001" summary="Library management">
+      <created>1607666634507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607666634507</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Library management">
+      <created>1607666666929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607666666929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;some changes&quot;">
+      <created>1626092053981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626092053982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Library management" />
+    <MESSAGE value="&quot;some changes&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;some changes&quot;" />
+  </component>
+</project>
