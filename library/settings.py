@@ -21,12 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'nu2xx00wvzho4c43c667jwdgflo1nph#^^$1a6=oip&97852m4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-django_heroku.settings(locals())
+
 
 # Application definition
 
@@ -124,7 +124,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 
 try:
