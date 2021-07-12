@@ -26,7 +26,7 @@ SECRET_KEY = 'nu2xx00wvzho4c43c667jwdgflo1nph#^^$1a6=oip&97852m4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kimmy-library.herokuapp.com']
+ALLOWED_HOSTS = ['https://kimmy-library.herokuapp.com', 'kimmy-library.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
